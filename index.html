@@ -27,6 +27,22 @@
         font-size: 24px;
     }
        }
+       
+       .logo {
+    animation: spin 10s linear infinite;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+       
+       
 
 
         .container {
@@ -54,6 +70,8 @@
 <body>
     <header>
         <img src="BE GREATER.png" alt="" class="logo"> 
+        
+       
         <h4>Gaming</h4>
         <h1>Highlights and Montages</h1>
         <h6></h6>
@@ -81,8 +99,6 @@
         <source src="Highlight1.mp4" type="video/mp4">
     </video>
 </div>
-
-
 
     
     <footer style="text-align: center; padding: 20px; color: #fff; background-color: #3282B8;">
