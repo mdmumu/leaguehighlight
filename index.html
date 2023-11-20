@@ -20,30 +20,26 @@
         }
         
         @media (max-width: 768px) {
-    .logo {
-        width: 100%;
-    }
-    h1 {
-        font-size: 24px;
-    }
-       }
-       
-       .logo {
-    animation: spin 10s linear infinite;
-}
+            .logo {
+                width: 100%;
+            }
+            h1 {
+                font-size: 24px;
+            }
+        }
 
-@keyframes spin {
-    from {
-        transform: rotate(0deg);
-    }
-    to {
-        transform: rotate(360deg);
-    }
-}
+        .logo {
+            animation: spin 10s linear infinite;
+        }
 
-       
-       
-
+        @keyframes spin {
+            from {
+                transform: rotate(0deg);
+            }
+            to {
+                transform: rotate(360deg);
+            }
+        }
 
         .container {
             max-width: 800px;
@@ -54,7 +50,7 @@
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
             position: relative;
         }
-        
+
         .container {
             max-width: 800px;
             margin:20px auto;
@@ -63,17 +59,47 @@
             border-radius: 15px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
             position: ;
+        }
 
+        .footer-icon {
+            width: 30px; /* Adjust the size as needed */
+            height: 30px;
+            
+            margin: 0 10px;
+        }
+        
+        footer {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        
+        .black-container {
+            background-color: #000;
+            padding: 20px;
+            text-align: center;
+        }
+        
+        .center-images {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 40vh;
+        }
+        
+        .center-images img{
+            margin: 0 10px;
+            max-width: 50%;
+            height: auto;
         }
     </style>
 </head>
 <body>
     <header>
         <img src="logoM.png" alt="" class="logo"> 
-        
-       
         <h4>Gaming</h4>
-        <h1>Highlights and Montages</h1>
+        <h1>  </h1>
         <h6></h6>
     </header>
     <div class="container">
@@ -86,24 +112,34 @@
             I'm a passionate individual who is enthusiastic about gaming and its applications. I enjoy gaming and staying up-to-date with the latest trends in the Gaming field.  
         </p>
         
-        <h2>Contact Information</h2>
-        <p>
-            You can reach me at: <a href="mailto:2022100581@bulsu.edu.ph">2022100581@bulsu</a><br>
-            Follow me on social media: <a href="https://www.facebook.com/mrkdhnil?mibextid=ZbWKwL">Facebook</a>
-        </p>
+        
     </div>
     
-    <div class="container">
-    <h2 style="text-align: center;">League Highlights</h2>
-    <video controls width="100%">
-        <source src="Highlight1.mp4" type="video/mp4">
-    </video>
-</div>
-
+    <div class="black-container">
+        <div class="center-images">
+        <img src="league.jpeg" alt="Image 1">
+        <img src="valo.jpeg" alt="Image 2">
+        
+    </div>
     
-    <footer style="text-align: center; padding: 20px; color: #fff; background-color: #3282B8;">
-    &copy; 2023 MGaming. All rights reserved.
-</footer>
+    
+    
+    
+    
+    <div class="container">
+        <h2 style="text-align: center;">League Highlights</h2>
+        <video controls width="100%">
+            <source src="Highlight1.mp4" type="video/mp4">
+        </video>
+    </div>
 
+    <footer style="text-align: center; padding: 20px; color: #fff; background-color: #3282B8;">
+        &copy; 2023 MGaming. All rights reserved.
+        <a href="mailto:your-email@gmail.com" target="_blank"><img src="GmailIcon.png" alt=" " class="footer-icon"></a>
+        
+        <a href="https://www.facebook.com/mrkdhnil?mibextid=ZbWKwL" target="_blank"><img src="FbIcon.png" alt=" " class="footer-icon"></a>
+        
+        
+    </footer>
 </body>
 </html>
