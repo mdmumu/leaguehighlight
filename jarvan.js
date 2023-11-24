@@ -16,3 +16,7 @@ button.addEventListener('click', function () {
         window.location.href = "https://drive.google.com/file/d/1R0Jrvpb9YS_Lamq_OO9IhamW4PZPOfiC/view?usp=sharing";
     }, 4000);
 });
+
+
+
+
